@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Jenkins Deployment Training</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,8 +16,8 @@
     </head>
     <body>
         <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
-            <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="https://www.w3schools.com/images/w3schools.png" style="width:80%;"></a>
-            <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+            <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="https://www.w3schools.com/images/w3schools.png" alt= "image not found" style="width:80%;"></a>
+            <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <em class="fa fa-remove"></em></a>
             <a class="w3-bar-item w3-button w3-teal" href="#">Home</a>
             <a class="w3-bar-item w3-button" href="#">Link 1</a>
             <a class="w3-bar-item w3-button" href="#">Link 2</a>
@@ -22,7 +25,7 @@
             <a class="w3-bar-item w3-button" href="#">Link 4</a>
             <a class="w3-bar-item w3-button" href="#">Link 5</a>
             <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('demo')" href="javascript:void(0)">Dropdown <i class="fa fa-caret-down"></i></a>
+                <a class="w3-bar-item w3-button" onclick="myAccordion('demo')" href="javascript:void(0)">Dropdown <em class="fa fa-caret-down"></em></a>
                 <div id="demo" class="w3-hide">
                     <a class="w3-bar-item w3-button" href="#">Link</a>
                     <a class="w3-bar-item w3-button" href="#">Link</a>
@@ -33,7 +36,7 @@
         <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>                  
             <div class="w3-main" style="margin-left:250px;">                  
                 <div id="myTop" class="w3-container w3-top w3-theme w3-large">
-                    <p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+                    <p><em class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></em>
                     <span id="myIntro" class="w3-hide">W3.CSS: Introduction</span></p>
                 </div>                  
                 <header class="w3-container w3-theme" style="padding:64px 32px">
@@ -57,7 +60,7 @@
                     <hr>
                     <h2>Easy to Use</h2>
                     <div class="w3-container w3-sand w3-leftbar">
-                        <p><i>Make it as simple as possible, but not simpler.</i>
+                        <p><em>Make it as simple as possible, but not simpler.</em>
                             <br>Albert Einstein
                         </p>
                     </div>                  
